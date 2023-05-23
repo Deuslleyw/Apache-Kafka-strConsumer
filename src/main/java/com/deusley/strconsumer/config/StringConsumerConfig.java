@@ -30,7 +30,7 @@ public class StringConsumerConfig {
         return new DefaultKafkaConsumerFactory<>(configs);
     }
     @Bean
-    public ConcurrentKafkaListenerContainerFactory<String, String> strConsumer(
+    public ConcurrentKafkaListenerContainerFactory<String, String> strContainer(
             ConsumerFactory<String, String> consumerFactory){
 
         var factory = new ConcurrentKafkaListenerContainerFactory<String, String>();
