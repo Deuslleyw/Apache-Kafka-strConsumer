@@ -28,5 +28,4 @@ public class StrConsumerListener {
         log.info("HISTORY ::: Receive message {}", message);
     }
 
-
 }
